@@ -79,7 +79,7 @@
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; Strefa Kursów 2016</p>
+            <p>&copy; Strefa  </p>
         </div>
     </footer>
 
