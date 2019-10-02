@@ -52,6 +52,12 @@ class VideosControler extends Controller
     }
 
     /**
-     * 
+     * edycja
      */
+
+     public function edit($id)
+     {
+        $video = Video::findOrFail($id);
+        return view('videos.edit')->with('video', $video);
+     }
 }
